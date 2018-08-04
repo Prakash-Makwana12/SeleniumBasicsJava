@@ -2,7 +2,6 @@ package webDriverBasics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.Assert;
 
 //import org.openqa.selenium.firefox.FirefoxDriver;
@@ -20,9 +19,9 @@ public class WebDriverBasics {
 		
 		//Chrome browser settings
 		System.setProperty("webdriver.chrome.driver", "/Users/Prakash/eclipse-workspace/SeleniumBasics/Resources/chromedriver");
-		//driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		
-		driver = new HtmlUnitDriver();
+		//driver = new HtmlUnitDriver();
 		
 		driver.get("http://www.google.com");
 		

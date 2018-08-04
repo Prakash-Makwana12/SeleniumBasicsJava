@@ -48,7 +48,5 @@ public class JavaScriptExecutorConcept {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].style.border = '2px solid red'", element);
 	}
-	
-	
-	
+		
 }
